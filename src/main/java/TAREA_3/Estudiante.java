@@ -1,20 +1,16 @@
-//POJO
-
 package TAREA_3;
-
-import java.util.Date;
 
 public class Estudiante {
     private Integer id;
     private String nombre;
     private String apellido;
-    private Date fechaNacimiento;
+    private String fechaNacimiento;
     private String genero;
     private String direccion;
     private String telefono;
     private String correoElectronico;
     private String grado;
-    private Date fechaInscripcion;
+    private String fechaInscripcion;
 
     // Constructor, getters y setters
 
@@ -42,11 +38,11 @@ public class Estudiante {
         this.apellido = apellido;
     }
 
-    public Date getFechaNacimiento() {
+    public String getFechaNacimiento() {
         return fechaNacimiento;
     }
 
-    public void setFechaNacimiento(Date fechaNacimiento) {
+    public void setFechaNacimiento(String fechaNacimiento) {
         this.fechaNacimiento = fechaNacimiento;
     }
 
@@ -90,13 +86,11 @@ public class Estudiante {
         this.grado = grado;
     }
 
-    public Date getFechaInscripcion() {
+    public String getFechaInscripcion() {
         return fechaInscripcion;
     }
 
-    public void setFechaInscripcion(Date fechaInscripcion) {
+    public void setFechaInscripcion(String fechaInscripcion) {
         this.fechaInscripcion = fechaInscripcion;
     }
 }
-
-
